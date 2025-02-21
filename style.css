@@ -43,6 +43,7 @@ body {
     align-items: center;
     width: 80%;
     gap: 10px;
+    text-align: center;
 }
 
 .ipad-content p:first-child {
