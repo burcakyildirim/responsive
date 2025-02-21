@@ -24,8 +24,8 @@ body {
 .ipad {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: center;
   width: 50%;
   gap: 10px;
   border-radius: 20px;
@@ -34,13 +34,15 @@ body {
   padding: 20px;
 }
 
+
 .ipad-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  text-align: center;
+    flex-grow: 0.3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 10px;
 }
 
 .ipad-content p:first-child {
